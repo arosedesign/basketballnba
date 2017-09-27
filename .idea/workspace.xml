@@ -1,217 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b456d65a-30a8-436b-be9b-c264ab9e4e05" name="Default" comment="Prova di push da locale">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/assets/css/bluerock.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/cs-bluehost-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/cs-mojo-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/pagecache.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/php-56.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/php-7.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/php-edge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/images/woocommerce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/branding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/checkout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/churn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/cli.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/coming-soon.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/editor-prompt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/jetpack.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/mojo-themes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/notifications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/performance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/plugin-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/shortcode-generator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/spam-prevention.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/sso.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/staging.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/styles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/tests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/themes-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/updates.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/inc/user-experience-tracking.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/lib/.staging" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/mojo-marketplace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/api-unavailable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/coming-soon/bluehost-india.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/coming-soon/bluehost.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/coming-soon/mojo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header-small-w-nav.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header-small.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header/header-no-nav.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header/marketplace-fallback.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header/nav-primary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/header/nav-sub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/interim-staging-create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/modal-deploy-database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/modal-deploy-files-database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/modal-deploy-files.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/modal-destroy-confirm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-graphics.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-home.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-mixed-themes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-onboarding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-performance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-plugins.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-purchases.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-services.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-single-item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/mojo-themes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/navigation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/staging-create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/staging-production.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/staging-staging.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/pages/theme-preview.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/tests/loader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/updater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding-tracks/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding-tracks/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding-tracks/jetpack-onboarding-tracks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding-tracks/lib/tracks/class.tracks-client.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding-tracks/lib/tracks/class.tracks-event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding-tracks/lib/tracks/client.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/class.jetpack-onboarding-end-points.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/class.jetpack-onboarding-welcome-panel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/actions/data-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/actions/flash-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/actions/setup-progress-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/actions/site-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/actions/spinner-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/dashicon.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/flash.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/page/container.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/page/index.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/page/section.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/skip-button.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/business-address.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/contact.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/get-started.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/homepage.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/jetpack-jumpstart.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/layout.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/review.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/site-title.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/components/steps/woocommerce.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/constants/jetpack-onboarding-constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/constants/jetpack-onboarding-paths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/dispatcher/app-dispatcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/ie-shims.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/jetpack-onboarding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/stores/data-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/stores/flash-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/stores/setup-progress-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/stores/site-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/stores/spinner-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/utils/wp-ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/vendor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/client/welcome-panel.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_business-address.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_contact.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_container.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_get-started.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_homepage.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_jetpack-jumpstart.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_review.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_site-title.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/_woocommerce.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/color-overrides.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/mixins/_breakpoint.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/mixins/_calypso-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/scss/welcome-panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/welcome-panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/css/welcome-panel.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/ie-shims.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/ie-shims.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/jetpack-onboarding.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/jetpack-onboarding.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/jetpack-onboarding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/jetpack-onboarding.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/vendor.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/dist/vendor.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/font/Genericons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/font/genericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/font/genericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/font/genericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/font/genericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/feature-photon-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/jpo-contact.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/jpo-layout-news.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/jpo-layout-static.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/jpo-themes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/jpo-welcome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/spinner-2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/img/stats-example-sm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/jetpack-onboarding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/mojo-marketplace-wp-plugin-production/vendor/jetpack/jetpack-onboarding/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Actions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Migration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Output.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Refresh.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Review.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Save.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Shortcode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Type.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Validate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Welcome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/OMAPI/Widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/dashboard-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/featured-logos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/features-ab-testing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/features-analytics.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/features-builder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/features-exit-animated.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/logo-color-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/logo-color-large@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/matthewwoodward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/menu-icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/michaelstelzner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/neilpatel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/omapi-graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/title-icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/images/video-cta-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/select2-spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/select2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/select2x2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/css/settings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/archie.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/archie.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/archie.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/archie.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/js/clipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/js/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/js/jspdf.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/js/select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/js/settings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/assets/js/tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/optin-monster-wp-api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/optinmonster/readme.txt" afterPath="" />
+    <list default="true" id="b456d65a-30a8-436b-be9b-c264ab9e4e05" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/author-bio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/COPYING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/genericons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/color-scheme-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/COPYING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/genericons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/color-scheme-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/searchform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar-content-bottom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/biography.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c0fdc3d0-5b3d-468b-9547-63da75beb7b4" name="ignora" comment="ignora" />
@@ -248,8 +126,8 @@
       <file leaf-file-name="functions-core.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/includes/functions-core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="569">
+              <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <marker date="1503330096000" expanded="true" signature="5484:6093" ph="..." />
                 <marker date="1503330096000" expanded="true" signature="5654:5700" ph="..." />
@@ -294,7 +172,7 @@
       <file leaf-file-name="revija.pot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/lang/revija.pot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="15929">
               <caret line="937" column="22" lean-forward="false" selection-start-line="937" selection-start-column="22" selection-end-line="937" selection-end-column="22" />
               <folding />
             </state>
@@ -357,10 +235,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1991" />
-    <option name="y" value="26" />
-    <option name="width" value="1593" />
-    <option name="height" value="1024" />
+    <option name="x" value="1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -552,7 +430,8 @@
       <workItem from="1506361107181" duration="3302000" />
       <workItem from="1506417411319" duration="1274000" />
       <workItem from="1506431461146" duration="3737000" />
-      <workItem from="1506442893258" duration="608000" />
+      <workItem from="1506442893258" duration="692000" />
+      <workItem from="1506491501590" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Prova di push da locale">
       <created>1506417474063</created>
@@ -568,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506433117650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete dei plugin inutili">
+      <created>1506445688716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506445688716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8921000" />
+    <option name="totallyTimeSpent" value="9008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,15 +470,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1991" y="26" width="1593" height="1024" extended-state="0" />
+    <frame x="1920" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27401677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -643,13 +530,82 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prova di push da locale" />
     <MESSAGE value="tentativo implementazione visualcomposer e child Arosedesign" />
-    <option name="LAST_COMMIT_MESSAGE" value="tentativo implementazione visualcomposer e child Arosedesign" />
+    <MESSAGE value="Delete dei plugin inutili" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete dei plugin inutili" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/arosedesign/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/includes/functions-core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <marker date="1503330096000" expanded="true" signature="5484:6093" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="5654:5700" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="5743:6083" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="6197:6577" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="6369:6567" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="8736:8839" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9130:9302" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9228:9274" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9480:9731" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9532:9610" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9649:9699" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9887:10095" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="9939:9974" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="10013:10063" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="10272:10455" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="10371:10423" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="10626:11074" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="10777:11063" ph="{...}" />
+            <marker date="1503330096000" expanded="true" signature="10809:11056" ph="{&quot;id&quot;: child.id...}" />
+            <marker date="1503330096000" expanded="true" signature="13267:13370" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="13691:13944" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="13870:13916" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="14122:14585" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="14276:14573" ph="{...}" />
+            <marker date="1503330096000" expanded="true" signature="14309:14565" ph="{&quot;id&quot;: child.id...}" />
+            <marker date="1503330096000" expanded="true" signature="16782:16885" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="19820:20287" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="19978:20275" ph="{...}" />
+            <marker date="1503330096000" expanded="true" signature="20011:20267" ph="{&quot;id&quot;: child.id...}" />
+            <marker date="1503330096000" expanded="true" signature="24926:25026" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="29663:29701" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="33415:33453" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="42615:43058" ph="..." />
+            <marker date="1503330096000" expanded="true" signature="42646:42874" ph="{...}" />
+            <marker date="1503330096000" expanded="true" signature="42697:42740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/lang/revija.pot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15929">
+          <caret line="937" column="22" lean-forward="false" selection-start-line="937" selection-start-column="22" selection-end-line="937" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/arosedesign/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -780,14 +736,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/arosedesign/rtl.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/arosedesign/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/arosedesign/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -806,16 +754,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/lang/revija.pot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="15929">
           <caret line="937" column="22" lean-forward="false" selection-start-line="937" selection-start-column="22" selection-end-line="937" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/arosedesign/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/revija/includes/functions-core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="569">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <marker date="1503330096000" expanded="true" signature="5484:6093" ph="..." />
             <marker date="1503330096000" expanded="true" signature="5654:5700" ph="..." />
