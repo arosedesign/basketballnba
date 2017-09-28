@@ -25,8 +25,7 @@ if (!class_exists('revija_shortcode')) {
 	
 class revija_shortcode
 {
-	function revija_shortcode()
-	{
+function __construct() {
 		if (function_exists ('add_shortcode') )
 		{
 			add_shortcode('revija_shortcode', array (&$this, 'mad_add_shortcode1') );
@@ -95,7 +94,7 @@ class revija_shortcode
 		));
 
 		if (!empty($attachments) && is_array($attachments)) {
-			$output .= "<div id='owl-demo-3' class='owl-carousel'>";
+			$output .= "<div class='owl_demo_3 owl-carousel gallery_shortcode'>";
 			foreach ($attachments as $attachment) {
 				if (is_single()) {
 					$permalink = REVIJA_HELPER::get_post_attachment_image($attachment->ID, '');
