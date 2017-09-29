@@ -4,3 +4,4 @@
 [27-Sep-2017 08:59:33 UTC] WordPress errore sul database Lost connection to MySQL server during query per la query SELECT option_value FROM staging_408_options WHERE option_name = 'wpb_js_less_version' LIMIT 1 fatta da require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Vc_Manager->init, do_action('vc_before_init'), WP_Hook->do_action, WP_Hook->apply_filters, vc_check_for_custom_css_build, Vc_Settings->getCustomCssVersion, get_option
 [28-Sep-2017 09:58:00 UTC] mojo_plugin_activated
 [28-Sep-2017 10:22:14 UTC] mojo_plugin_activated
+[29-Sep-2017 08:54:44 UTC] PHP Fatal error:  Cannot redeclare mm_build_link() (previously declared in /home2/basketk7/public_html/basketballnba/staging/2064/wp-content/plugins/mojo-marketplace-wp-plugin/inc/base.php:56) in /home2/basketk7/public_html/basketballnba/staging/2064/wp-content/themes/arosedesign/functions.php on line 33
