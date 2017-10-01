@@ -64,22 +64,16 @@ class Shortcode_Tinymce
      */
     public function pu_get_shortcodes()
     {
-        global $wpdb;
-
-        $shcode = $wpdb->get_results( 'SELECT id,data_title FROM '.$wpdb->prefix.'wce_editor_content', OBJECT );
-
-        $shortcode_tags = array();
-        foreach ($shcode as $key => $val) {
-            $nome = $val->data_title;
-            $id = $val->id;
-            $shortcode_tags[$nome] = $id;
-        }
+        global $shortcode_tags;
 
         echo '<script type="text/javascript">var shortcodes_button = new Array();';
-        
+
+        $count = 0;
+
         foreach($shortcode_tags as $tag => $code)
         {
-            echo "shortcodes_button[{$code}] = '{$tag}';";
+            echo "shortcodes_button[{$count}] = '{$tag}';";
+            $count++;
         }
 
         echo '</script>';
