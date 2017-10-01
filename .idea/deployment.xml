@@ -5,7 +5,7 @@
       <paths name="BasketballNBA">
         <serverdata>
           <mappings>
-            <mapping deploy="/basketballnba/staging/2064" local="$PROJECT_DIR$" web="/basketballnba/staging/2064/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
