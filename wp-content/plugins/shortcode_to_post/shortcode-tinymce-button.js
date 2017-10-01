@@ -6,16 +6,15 @@
         jQuery.each(shortcodes_button, function(i)
         {
             shortcodeValues.push({text: shortcodes_button[i], value:i});
-            console.log(i);
         });
 
         editor.addButton('pushortcodes', {
             type: 'listbox',
-            text: 'Funzioni arosedesign',
+            text: 'Funzioni custom',
             onselect: function(e) {
                 var v = e.control._value;
 
-                tinyMCE.activeEditor.selection.setContent( '[wce_code id='+v+']' );
+                tinyMCE.activeEditor.selection.setContent( '[' + v + '][/' + v + ']' );
             },
             values: shortcodeValues
         });
