@@ -6,6 +6,15 @@
  Text Domain:   twenty-seventeen-child
 */
 
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+
+body {
+    font-family: 'PT Serif',serif;
+}
+
 header #topline {
     background: #C7152F;
     height: 2px;
@@ -30,7 +39,7 @@ header #social_header li a {
 
 header div#tophead {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -50,6 +59,7 @@ header div#logo_container div#logo {
 
 header div#logo_container div#logo svg {
     width: 100%;
+    height: 175px;
 }
 
 header #social_header .facebook:hover a  {
@@ -100,7 +110,7 @@ header #searchform > form {
     background: #f9f9f9;
     position: absolute;
     width: 100%;
-    max-width: 390px;
+    max-width: 350px;
     -webkit-transform: translateY(60px);
     -moz-transform: translateY(60px);
     -o-transform: translateY(60px);
@@ -111,7 +121,7 @@ header #searchform > form {
     z-index: 5000;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
-    top: 38px;
+    top:0;
 }
 
 header #searchform > form.opened {
@@ -139,8 +149,105 @@ header #searchform button.search-submit {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
     header #searchform > form.opened {
         max-width: 200px;
     }
+}
+
+@media screen and (max-width: 767px) {
+    header #searchform>form.opened {
+        max-width: 100%;
+        position: absolute;
+    }
+    header div#social_header,
+    header div#logo_container,
+    header div#searchform {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+    header div#social_header ul {
+        margin: 0;
+    }
+    header div#logo_container div#logo svg {
+        height: 127px;
+    }
+
+    header div#social_header a.opensearch {
+        float: right;
+        margin-right: 10px;
+    }
+    header #searchform>form {
+        top: -9px;
+    }
+}
+
+
+header .site-navigation-fixed.navigation-top {
+    position: relative;
+    background: #1D4488;
+}
+
+header .site-navigation-fixed.navigation-top .wrap {
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+header .site-navigation-fixed.navigation-top a {
+    padding: 13px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 19px;
+}
+
+header .site-navigation-fixed.navigation-top a:hover {
+    opacity: 0.7;
+}
+
+header .site-navigation-fixed.navigation-top .current-menu-item > a,
+header .site-navigation-fixed.navigation-top .current_page_item > a {
+    background: #C7152F;
+}
+
+header  ul#top-menu {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    header nav#site-navigation {
+        background: #1D4488;
+    }
+
+    header nav#site-navigation ul#top-menu {
+        padding: 0;
+    }
+
+    header nav#site-navigation ul#top-menu li {
+        background: #fafafa;
+    }
+
+    header nav#site-navigation ul#top-menu li.current-menu-item {
+        background: #C7152F;
+    }
+
+    header nav#site-navigation button.menu-toggle {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    header .navigation-top a {
+        text-align: center;
+    }
+    header .navigation-top .current-menu-item > a,
+    header .navigation-top .current_page_item > a {
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+.panel-content .wrap {
+    padding: 0;
 }
