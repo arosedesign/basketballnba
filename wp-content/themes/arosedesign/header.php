@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
-    <link rel="stylesheet" href="/wp-content/themes/arosedesign/css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" <?php echo 'href="' . get_home_url() . '/wp-content/themes/arosedesign/css/font-awesome.min.css"' ?> type="text/css" media="all">
     <?php wp_head(); ?>
+    <link rel="stylesheet" <?php echo 'href="' . get_home_url() . '/wp-content/themes/arosedesign/css/style.css"' ?> type="text/css" media="all">
 
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 
@@ -46,7 +46,7 @@
             </div>
 
             <div id="logo">
-                <?php include 'logo.php'; var_dump(get_home_url().'/wp-content/themes/arosedesign/css/font-awesome.min.css'); ?>
+                <?php include 'logo.php'; ?>
             </div>
 
             <div id="searchform">
