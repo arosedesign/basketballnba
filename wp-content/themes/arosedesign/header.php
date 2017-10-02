@@ -8,6 +8,7 @@
     <link rel="stylesheet" <?php echo 'href="' . get_home_url() . '/wp-content/themes/arosedesign/css/font-awesome.min.css"' ?> type="text/css" media="all">
     <?php wp_head(); ?>
     <link rel="stylesheet" <?php echo 'href="' . get_home_url() . '/wp-content/themes/arosedesign/css/style.css"' ?> type="text/css" media="all">
+    <script <?php echo 'src="' . get_home_url() . '/wp-content/themes/arosedesign/js/style.js"' ?> type="text/javascript" defer=""></script>
 
 </head>
 
@@ -23,33 +24,40 @@
             <div id="social_header">
                 <ul>
                     <li class="facebook">
-                        <span class="tooltip">Facebook</span>
-                        <a target="_blank" href="https://www.facebook.com/basketballncaa/">
+                        <a target="_blank" href="https://www.facebook.com/basketballnba/">
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>
                     <li class="twitter">
-                        <span class="tooltip">Twitter</span>
-                        <a target="_blank" href="https://twitter.com/BallNcaa">
-                            <i class="fa fa-twitter"></i> </a></li><li class="rss">
-                        <span class="tooltip">Rss</span> <a href="http://basketballncaa.com/feed/">
+                        <a target="_blank" href="https://twitter.com/BallNba">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="rss">
+                        <a title="<?php bloginfo('name'); ?>" href="<?php bloginfo('url'); ?>">
                             <i class="fa fa-rss"></i>
                         </a>
                     </li>
                     <li class="envelope">
-                        <span class="tooltip">Contact Us</span>
-                        <a href="mailto:redazione@basketballncaa.com">
+                        <a href="mailto:redazione@basketballnba.com">
                             <i class="fa fa-envelope-o"></i>
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div id="logo">
-                <?php include 'logo.php'; ?>
+            <div id="logo_container">
+                <div id="logo">
+                    <a title="" <?php echo 'href="' . get_home_url(). '"' ?> >
+                        <?php include 'logo.php'; ?>
+                    </a>
+                </div>
             </div>
 
             <div id="searchform">
+                <a class="opensearch" href="javascript:void(0)">
+                    <i class="fa fa-search"></i>
+                </a>
                 <?php get_search_form(); ?>
             </div>
 
