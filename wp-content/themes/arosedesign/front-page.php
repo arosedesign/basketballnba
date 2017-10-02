@@ -30,7 +30,6 @@ get_header(); ?>
                         <div class="entry-content">
 
                             <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-                            <?php twentyseventeen_edit_link( get_the_ID() ); ?>
 
                             <?php
                             the_content();
@@ -45,11 +44,6 @@ get_header(); ?>
 
 
                     <?php
-
-                    // If comments are open or we have at least one comment, load up the comment template.
-                    if ( comments_open() || get_comments_number() ) :
-                        comments_template();
-                    endif;
 
                 endwhile; // End of the loop.
                 ?>

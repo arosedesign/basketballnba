@@ -248,6 +248,12 @@ header  ul#top-menu {
     }
 }
 
-.panel-content .wrap {
+.site-content .wrap {
+    max-width:1200px;
     padding: 0;
+}
+
+.wrap #primary #main .entry-content {
+    float: none;
+    width: 100%;
 }
