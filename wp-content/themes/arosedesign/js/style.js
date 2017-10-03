@@ -5,10 +5,16 @@ jQuery(document).ready(function(){
         jQuery( "form.search-form" ).toggleClass( 'opened' );
         jQuery( ".opensearch .fa" ).toggleClass('fa-search');
         jQuery( ".opensearch .fa" ).toggleClass('fa-close');
+        setTimeout(focussearch, 100);
     });
 
     mobileupdate()
+
 });
+
+function focussearch(){
+    jQuery('form.search-form input.search-field').focus()
+}
 
 function mobileupdate(){
     if(jQuery(window).innerWidth() <= 767) {
