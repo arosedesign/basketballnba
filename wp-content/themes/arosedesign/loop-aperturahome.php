@@ -22,29 +22,20 @@
         }
     </script>
 
-    <div id="apertura">
+    <div class="loop" id="apertura">
 
-        <h1><a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-        <div class="apertura"><?php the_post_thumbnail(); ?></div>
-        <p class="abstract"><?php the_excerpt(); ?></p>
-
-        <?php
-        $posttags = get_the_tags();
-        if ($posttags) {
-            foreach($posttags as $tag) {
-                $array[] = $tag->name;
-            }
-        }
-        $taglist = implode(",", $array);
-
-        ?>
+        <div class="apertura"><a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
+        <div class="bloccoinfo">
+            <h1 class="title"><a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+            <p class="abstract"><?php the_excerpt(); ?></p>
 
 
-        <div class="sharer">
-            <a title="Facebook" href="javascript:Socialpopup('https://www.facebook.com/sharer/sharer.php?u=<?php urlencode(the_permalink()); ?>')"><i class="fa fa-facebook"></i></a>
-            <a title="Facebook" href="javascript:Socialpopup('http://twitter.com/share?text=<?php the_title(); ?>&url=<?php urlencode(the_permalink()); ?>')"><i class="fa fa-twitter"></i></a>
+            <div class="sharer">
+                <a title="Facebook" href="javascript:Socialpopup('https://www.facebook.com/sharer/sharer.php?u=<?php urlencode(the_permalink()); ?>')"><i class="fa fa-facebook"></i></a>
+                <a title="Facebook" href="javascript:Socialpopup('http://twitter.com/share?text=<?php the_title(); ?>&url=<?php urlencode(the_permalink()); ?>moci')"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="tags"><?php the_tags('',', ',''); ?></div>
         </div>
-        <div class="tags"><?php the_tags('',', ',''); ?></div>
 
     </div>
 
