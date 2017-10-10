@@ -290,6 +290,10 @@ header  ul#top-menu {
 
 .home #apertura {
     margin-top: 30px;
+    max-height: 480px;
+    overflow: hidden;
+    position: relative;
+    border: solid 1px #1D4488;
 }
 
 .home #apertura .apertura {
@@ -334,6 +338,8 @@ header  ul#top-menu {
 .home .tags {
     text-transform: uppercase;
     font-size: 13px;
+    position: absolute;
+    bottom: 5px;
 }
 
 .home .loop i.fa {
