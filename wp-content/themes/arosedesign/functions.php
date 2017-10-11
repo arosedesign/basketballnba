@@ -23,10 +23,4 @@ function featuredtoRSS($content) {
 add_filter('the_excerpt_rss', 'featuredtoRSS');
 add_filter('the_content_feed', 'featuredtoRSS');
 
-function custom_plugin_arosedesign($folders){
-    $folders[] = plugin_dir_path(__FILE__).'arosedesign_siteorigin/';
-    return $folders;
-}
-add_filter('siteorigin_widgets_widget_folders', 'custom_plugin_arosedesign');
-
 ?>
