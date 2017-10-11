@@ -23,4 +23,10 @@ function featuredtoRSS($content) {
 add_filter('the_excerpt_rss', 'featuredtoRSS');
 add_filter('the_content_feed', 'featuredtoRSS');
 
+function arosedesign_add_widget_folders( $folders ){
+    $folders[] = get_stylesheet_directory() . '/arosedesign_siteorigin/';
+    return $folders;
+}
+add_action('siteorigin_widgets_widget_folders', 'arosedesign_add_widget_folders');
+
 ?>
