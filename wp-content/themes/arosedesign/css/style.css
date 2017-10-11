@@ -26,6 +26,63 @@ body {
     box-shadow: none;
 }
 
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 900;
+    color: #1D4488;
+}
+
+.sidebarloop .thumb {
+    height: 150px;
+    overflow: hidden;
+}
+
+.sidebarloop h3.title {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.sidebarloop a {
+    display: block;
+}
+
+.sidebarloop a:hover {
+    opacity: 0.9;
+    display: block;
+}
+
+h2.widget-title {
+    letter-spacing: 0;
+}
+
+#siteorigin-panels-postloop-2 .widget-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1D4488;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 900;
+}
+
+#siteorigin-panels-postloop-2 {
+    padding: 10px;
+    border: solid 2px #1D4488;
+    max-width: 432px;
+}
+
+@media screen and (max-width: 762px) {
+    #siteorigin-panels-postloop-2 {
+        display: none;
+    }
+}
+
 header #topline {
     background: #C7152F;
     height: 2px;
@@ -526,7 +583,8 @@ header  ul#top-menu {
     color: #1D4488;
 }
 
-.single div#content {
+.single div#content,
+.page  div#content {
     padding-top: 25px;
 }
 
@@ -554,6 +612,7 @@ header  ul#top-menu {
 
 .single #primary article .entry-content iframe {
     width: 100%;
+    min-height: 300px;
 }
 
 div.twitter-video.twitter-video-rendered {
@@ -575,4 +634,28 @@ div.twitter-video.twitter-video-rendered {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+}
+
+@media screen and (max-width: 500px) {
+
+    .single #primary article .entry-content iframe {
+        width: 100%;
+        min-height: 200px;
+    }
+}
+
+
+/* PAGINA CONTATTI */
+
+.page #primary .entry-content .sow-submit-wrapper.sow-submit-styled input.sow-submit:disabled {
+    background: #222;
+    cursor: not-allowed;
+}
+
+.page .widget_sow-social-media-buttons {
+    padding-bottom: 0;
+}
+
+.page h3.widget-title {
+    text-transform: uppercase;
 }

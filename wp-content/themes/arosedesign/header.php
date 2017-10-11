@@ -43,7 +43,7 @@
             <div id="social_header">
                 <ul>
                     <li class="facebook">
-                        <a target="_blank" href="https://www.facebook.com/basketballnba/">
+                        <a target="_blank" href="https://www.facebook.com/bsktballnba/">
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>

@@ -10,6 +10,25 @@ jQuery(document).ready(function(){
 
     mobileupdate()
 
+    var fixmeTop = jQuery('#siteorigin-panels-postloop-2').offset().top;
+
+    jQuery(window).scroll(function() {
+
+        var currentScroll = jQuery(window).scrollTop();
+
+        if (currentScroll >= fixmeTop) {
+            jQuery('#siteorigin-panels-postloop-2').css({
+                position: 'fixed',
+                top: '10px'
+            });
+        } else {
+            jQuery('#siteorigin-panels-postloop-2').css({
+                position: 'static'
+            });
+        }
+
+    });
+
 });
 
 function focussearch(){
@@ -23,3 +42,4 @@ function mobileupdate(){
 }
 
 jQuery(window).resize(mobileupdate);
+
