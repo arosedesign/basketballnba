@@ -279,6 +279,10 @@ header  ul#top-menu {
 }
 /* HOMEPAGE APERTURA */
 
+.home #primary .panel-grid {
+    margin-bottom: 0;
+}
+
 .home .title {
     line-height: 27px;
 }
@@ -350,6 +354,10 @@ header  ul#top-menu {
     bottom: 5px;
 }
 
+.home .tags a {
+    text-decoration: underline;
+}
+
 .home .loop i.fa {
     font-size: 25px;
     margin-right: 15px;
@@ -411,3 +419,101 @@ header  ul#top-menu {
         max-height: none;
     }
 }
+
+/* HOME - SECONDA FASCIA: VIDEO + FEED */
+
+.home .rssfeed > p {
+    display: none;
+}
+
+.home .rssfeed h3 {
+    line-height: 22px;
+}
+
+.home .rssfeed h3 a {
+    color: #3357a0;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-weight: 900;
+}
+
+.home .rssfeed {
+    padding: 10px;
+    border: solid 2px #3357a0;
+}
+
+.home .rssfeed img {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 100%;
+}
+
+.home .riga_video_feed .panel-first-child.so-panel.widget {
+    margin-bottom: 0 !important;
+    padding: 0;
+}
+
+.home .widget.so-panel .title_rss {
+    width: 100%;
+    background: #3357a0;
+    padding: 5px !important;
+    text-transform: uppercase;
+}
+
+.home .widget.so-panel .title_rss a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.home .descrizionevideo h3 {
+    color: #1D4488;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-weight: 900;
+}
+
+
+/* HOME - LOOP ARTICOLI */
+
+.home .loop.bloccoloop {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    border: solid 1px #1D4488;
+}
+
+.home .bloccoloop .bloccoinfo {
+    position: relative;
+    padding: 0 5px 5px;
+}
+
+.home .loop.bloccoloop:nth-child(even) {
+    margin-right: 2.5%;
+}
+
+.home .bloccoloop .apertura {
+    max-height: 180px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.home .bloccoloop .sharer {
+    position: absolute;
+    top: -43px;
+    z-index: 5;
+    background: #fff;
+    padding: 5px;
+    padding-right: 0;
+}
+
+.home .bloccoloop .tags {
+    position: relative;
+    bottom: auto;
+}
+
+/* ARTICOLO */
