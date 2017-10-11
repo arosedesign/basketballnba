@@ -12,5 +12,21 @@ function new_excerpt_more($more) {
 }
 add_filter('excerpt_more','new_excerpt_more',11);
 
+function featuredtoRSS($content) {
+    global $post;
+    if ( has_post_thumbnail( $post->ID ) ){
+        $content = '<div>' . get_the_post_thumbnail( $post->ID, 'medium', array( 'style' => 'margin-bottom: 15px;' ) ) . '</div>' . $content;
+    }
+    return $content;
+}
+
+add_filter('the_excerpt_rss', 'featuredtoRSS');
+add_filter('the_content_feed', 'featuredtoRSS');
+
+function custom_plugin_arosedesign($folders){
+    $folders[] = '/wp-content/plugins/arosedesign_siteorigin/';
+    return $folders;
+}
+add_filter('siteorigin_widgets_widget_folders', 'custom_plugin_arosedesign');
 
 ?>

@@ -168,7 +168,7 @@ header #searchform button.search-submit {
 
 @media screen and (max-width: 767px) {
     header #searchform>form.opened {
-        max-width: 100%;
+        max-width: 90%;
         position: absolute;
     }
     header div#social_header,
@@ -269,6 +269,14 @@ header  ul#top-menu {
     width: 100%;
 }
 
+@media screen and (max-width: 1250px) {
+    #tophead, .site-content .wrap {
+        padding: 0 20px;
+    }
+    #page {
+        overflow: hidden;
+    }
+}
 /* HOMEPAGE APERTURA */
 
 .home .title {
@@ -310,13 +318,13 @@ header  ul#top-menu {
     height: 100%;
 }
 
-.home #apertura .apertura a {
+.home .loop .apertura a {
     width: 100%;
     display: block;
     background: #C7152F;
 }
 
-.home #apertura .apertura a img {
+.home .loop .apertura a img {
     width: 100%;
     -webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
@@ -325,7 +333,7 @@ header  ul#top-menu {
     transition: opacity 0.5s ease-in-out;
 }
 
-.home #apertura .apertura a img:hover {
+.home .loop .apertura a img:hover {
     opacity: 0.7;
     filter: alpha(opacity=70);
 }
@@ -345,4 +353,61 @@ header  ul#top-menu {
 .home .loop i.fa {
     font-size: 25px;
     margin-right: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .home #apertura .apertura {
+        display: block;
+        width: 100%;
+    }
+
+    .home #apertura .bloccoinfo {
+        position: absolute;
+        bottom: 0;
+        background: #fff;
+        padding: 0 10px;
+        width: 100%;
+        left: 0;
+        margin: 0;
+        height: 180px;
+    }
+
+    .home .title {
+        margin: 10px 0 -5px;
+    }
+
+    .home #apertura .sharer {
+        position: absolute;
+        top: -40px;
+        right: 0;
+        margin: 0;
+        background: #fff;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .home .tags,
+    .home #apertura .sharer {
+        display: none;
+    }
+
+    .home #apertura .bloccoinfo {
+        position: relative;
+        margin: 0;
+        height: 100%;
+        display: block;
+    }
+
+    .home .loop .apertura a {
+        max-height: 300px;
+        overflow: hidden;
+    }
+
+    .home #apertura {
+        max-height: none;
+    }
 }
