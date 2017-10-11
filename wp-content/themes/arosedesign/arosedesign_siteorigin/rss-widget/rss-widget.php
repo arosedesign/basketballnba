@@ -10,32 +10,29 @@ Author: Arosedesign
 class RSS_Widget extends SiteOrigin_Widget {
 
     function __construct() {
-        //Here you can do any preparation required before calling the parent constructor, such as including additional files or initializing variables.
 
-        //Call the parent constructor with the required arguments.
         parent::__construct(
-        // The unique id for your widget.
             'rss-widget',
 
-            // The name of the widget for display purposes.
             __('RSS Widget', 'rss-widget-text-domain'),
 
-            // The $widget_options array, which is passed through to WP_Widget.
-            // It has a couple of extras like the optional help URL, which should link to your sites help or support page.
             array(
                 'description' => __('Questo widget restituisce i post rss di un sito WP con featured image.', 'rss-widget-text-domain')
             ),
 
-            //The $control_options array, which is passed through to WP_Widget
             array(
             ),
 
-            //The $form_options array, which describes the form fields used to configure SiteOrigin widgets. We'll explain these in more detail later.
             array(
-                'text' => array(
-                    'type' => 'text',
+                'rss_url' => array(
+                    'type' => 'link',
                     'label' => __('Inserisci il link al feed', 'siteorigin-widgets'),
                     'default' => 'http://iltuofeed.it'
+                ),
+                'numero_feed' => array(
+                    'type' => 'number',
+                    'label' => __('Numero di feed da visualizzare', 'siteorigin-widgets'),
+                    'default' => '1'
                 ),
             ),
 
