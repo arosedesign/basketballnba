@@ -48,12 +48,12 @@
                         </a>
                     </li>
                     <li class="twitter">
-                        <a target="_blank" href="https://twitter.com/BallNba">
+                        <a target="_blank" href="https://twitter.com/_BallNBA">
                             <i class="fa fa-twitter"></i>
                         </a>
                     </li>
                     <li class="rss">
-                        <a title="<?php bloginfo('name'); ?>" href="<?php bloginfo('url'); ?>">
+                        <a target="_blank" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('url'); ?>/feed">
                             <i class="fa fa-rss"></i>
                         </a>
                     </li>
