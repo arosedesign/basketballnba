@@ -18,3 +18,4 @@ class Basketballncaa_feed_widget extends SiteOrigin_Widget {
 }
 
 siteorigin_widget_register('rss-basketballncaa', __FILE__, 'Basketballncaa_feed_widget');
+

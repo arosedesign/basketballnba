@@ -24,7 +24,7 @@ add_filter('the_excerpt_rss', 'featuredtoRSS');
 add_filter('the_content_feed', 'featuredtoRSS');
 
 function custom_plugin_arosedesign($folders){
-    $folders[] = '/wp-content/plugins/arosedesign_siteorigin/';
+    $folders[] = 'arosedesign_siteorigin/';
     return $folders;
 }
 add_filter('siteorigin_widgets_widget_folders', 'custom_plugin_arosedesign');
