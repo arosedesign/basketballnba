@@ -659,3 +659,64 @@ div.twitter-video.twitter-video-rendered {
 .page h3.widget-title {
     text-transform: uppercase;
 }
+
+
+/* ARCHIVE */
+
+.archive article .thumb a img {
+    width: 100%;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.archive article .thumb a {
+    width: 100%;
+    display: block;
+    background: #FFF;
+}
+
+.archive article .thumb a:hover {
+    background: #C7152F;
+}
+
+.archive article .thumb a img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.archive article .thumb {
+    width: 20%;
+    display: inline-block;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.archive article .spiega {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+}
+
+.archive article h2.entry-title a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 900;
+    color: #1D4488;
+}
+
+.archive article h2.entry-title a:hover {
+    color: #C7152F;
+}
+
+.archive article h2.entry-title {
+    line-height: 17px;
+}
+
+.archive .site-main article {
+    padding-bottom: 20px;
+}
