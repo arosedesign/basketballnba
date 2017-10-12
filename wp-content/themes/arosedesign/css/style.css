@@ -81,7 +81,7 @@ h2.widget-title {
     max-width: 432px;
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 767px) {
     #siteorigin-panels-postloop-2 {
         display: none;
     }
@@ -786,4 +786,18 @@ sow-recaptcha > div {
 
 .archive .site-main article {
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .archive article .thumb {
+        width: 100%;
+        max-height: none;
+    }
+
+    .archive article .spiega {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
 }
