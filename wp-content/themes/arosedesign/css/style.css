@@ -591,6 +591,24 @@ footer.site-footer .wrap {
     bottom: auto;
 }
 
+@media screen and (max-width: 900px) {
+
+    .home .loop.bloccoloop {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .home .widget_facebook-likebox {
+        display: none;
+    }
+}
+
+
+
+
 /* ARTICOLO */
 
 .single h1.entry-title {
