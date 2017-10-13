@@ -25,5 +25,7 @@
 </div><!-- #page -->
 <?php wp_footer(); ?>
 
+<script <?php echo 'src="' . get_home_url() . '/wp-content/themes/arosedesign/js/style.js"' ?> type="text/javascript" defer=""></script>
+
 </body>
 </html>

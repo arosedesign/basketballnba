@@ -31,11 +31,9 @@
     <link rel="stylesheet" <?php echo 'href="' . get_home_url() . '/wp-content/themes/arosedesign/css/font-awesome.min.css"' ?> type="text/css" media="all">
     <?php wp_head(); ?>
     <link rel="stylesheet" <?php echo 'href="' . get_home_url() . '/wp-content/themes/arosedesign/css/style.css"' ?> type="text/css" media="all">
-    <script <?php echo 'src="' . get_home_url() . '/wp-content/themes/arosedesign/js/style.js"' ?> type="text/javascript" defer=""></script>
-
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('eupopup'); ?>>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83590033-2"></script>
