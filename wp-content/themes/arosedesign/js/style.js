@@ -284,15 +284,7 @@ jQuery(window).resize(mobileupdate);
         return publicfunc;
     });
 
-    $(document).ready( function() {
-        if ($(".eupopup").length > 0) {
-            $(document).euCookieLawPopup().init({
-                'info' : 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-                'popupTitle' : 'Questo sito utilizza i cookies',
-                'popupText' : 'Li usiamo per offrirti la migior esperienza possibile. Se continuerai ad utilizzare il nostro sito vorrà dire che sei felice di ricevere tutti i cookies su questo sito.'
-            });
-        }
-    });
+
 
     $(document).bind("user_cookie_consent_changed", function(event, object) {
         console.log("User cookie consent changed: " + $(object).attr('consent') );
