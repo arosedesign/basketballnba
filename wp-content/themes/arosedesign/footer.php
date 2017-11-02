@@ -18,7 +18,7 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
-				<p>© 2017 BasketballNBA All Rights Reserved.</p>
+				<p>© <?php echo date("Y"); ?> BasketballNBA All Rights Reserved.</p>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
