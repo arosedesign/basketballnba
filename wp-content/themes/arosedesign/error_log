@@ -1,0 +1,4 @@
+[25-Oct-2017 23:07:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/basketk7/public_html/basketballnba/wp-content/themes/arosedesign/archive.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/basketk7/public_html/basketballnba/wp-content/themes/arosedesign/archive.php on line 13
