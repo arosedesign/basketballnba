@@ -1,5 +1,5 @@
 <?php
-
+/*
     $xml=(wp_kses_post($instance['rss_url']));
 
     $xmlDoc = new DOMDocument();
@@ -19,5 +19,5 @@
         echo ("<a target ='_blank' title='BasketballNCAA - ". $item_title ."' href='" . $item_link
             . "'><p>" . $item_desc . "</a></p></div>");
     }
-
+*/
 ?>
