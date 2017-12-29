@@ -167,6 +167,21 @@ function my_cta_button_url() {
 }
 ```
 
+### Customizing the from tracking argument
+
+By default, when a site is connected to WordPress.com, a `from` argument gets appeneded to the connection URL which is used to track where the connection came from. Originally, this argument was simply `from=jpo`, but recently we started appending the version number to allow differentiating between versions. This looked like, `from=jpo-1.7.1`.
+
+While that has helped, we've found that it didn't all use cases. So, we are adding the `jpo_tracking_from_arg` filter which will allow hosts that use Jetpack Onboarding to fine-tune the `from` argument.
+
+Here is some example usage:
+
+```php
+add_filter( 'jpo_tracking_from_arg', 'modify_jpo_from', 10, 2 );
+function modify_jpo_from( $from, $version ) {
+	return sprintf( 'jpo-%d-my-cool-host', $version );
+}
+```
+
 ## Inserting the JPO wizard onto other pages
 
 By default, JPO runs in the welcome panel, but you can run it by inserting a div with the id 'jpo-welcome-panel' into any other page, like this:
@@ -181,9 +196,37 @@ function add_jpo_wizard() {
 		return;
 	}
 	?>
-	<div id='jpo-welcome-panel'><span class='screen-reader-text'>Loading Welcome Wizard</span></div>
+	Jetpack_Onboarding_WelcomePanel::render_widget();
 	<?php
 }
+```
+
+Here's a more complete example that shows how to show the wizard on the Profile screen, as opposed to all screens:
+
+```php
+add_action( 'current_screen', 'jetpack_onboarding_show_on_profile' );
+function jetpack_onboarding_show_on_profile( $screen ) {
+	if ( 'profile' == $screen->base ) {
+		// add assets
+		add_action( 'admin_enqueue_scripts', array( 'Jetpack_Onboarding_WelcomePanel', 'add_wizard_assets' ) );
+		// add wizard HTML
+		add_action( 'admin_notices', 'add_jpo_wizard' );
+	}
+}
+
+function add_jpo_wizard() {
+	if ( get_option( Jetpack_Onboarding_EndPoints::HIDE_FOR_ALL_USERS_OPTION ) ) {
+		return;
+	}
+
+	Jetpack_Onboarding_WelcomePanel::render_widget();
+}
+```
+
+If you decide to show the wizard on another page, you may also want to disable showing the wizard on the dashboard. To do this, you can do the following:
+
+```php
+add_filter( 'jetpack_onboarding_show_on_dashboard', '__return_false' );
 ```
 
 ## Styling

@@ -348,3 +348,10 @@ Stack trace:
 #2 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(769): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 2, 1, 1, false, true, 4, '<div class="tit...')
 #3 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(729): SiteOrigin_Panels_Renderer->render_widget(4, 2, 1, 1, Array, true)
 #4 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(655): SiteOrigin_Panels_Renderer->render_ce in /home2/basketk7/public_html/basketballnba/wp-content/themes/arosedesign/arosedesign_siteorigin/rss-widget/rss-templates/rss-template.php on line 11
+[23-Dec-2017 15:25:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getElementsByTagName() on null in /home2/basketk7/public_html/basketballnba/wp-content/themes/arosedesign/arosedesign_siteorigin/rss-widget/rss-templates/rss-template.php:11
+Stack trace:
+#0 /home2/basketk7/public_html/basketballnba/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(211): include()
+#1 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(468): SiteOrigin_Widget->widget(Array, Array)
+#2 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(769): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 2, 1, 1, false, true, 4, '<div class="tit...')
+#3 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(729): SiteOrigin_Panels_Renderer->render_widget(4, 2, 1, 1, Array, true)
+#4 /home2/basketk7/public_html/basketballnba/wp-content/plugins/siteorigin-panels/inc/renderer.php(655): SiteOrigin_Panels_Renderer->render_ce in /home2/basketk7/public_html/basketballnba/wp-content/themes/arosedesign/arosedesign_siteorigin/rss-widget/rss-templates/rss-template.php on line 11

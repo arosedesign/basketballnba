@@ -9,7 +9,7 @@ class Jetpack_Onboarding_EndPoints {
 	const BUSINESS_ADDRESS_SAVED_KEY = 'jpo_business_address_saved';
 	const MAX_THEMES = 3;
 	const NUM_RAND_THEMES = 3;
-	const VERSION = '1.7.1';
+	const VERSION = '1.7.4';
 	const WOOCOMMERCE_ID = 'woocommerce/woocommerce.php';
 	const WOOCOMMERCE_SLUG = 'woocommerce';
 	const HIDE_FOR_ALL_USERS_OPTION = 'jpo_hide_always';
@@ -261,9 +261,7 @@ class Jetpack_Onboarding_EndPoints {
 	static function reset_data() {
 		check_ajax_referer( self::AJAX_NONCE, 'nonce' );
 
-		delete_option( self::STEP_STATUS_KEY );
-		delete_option( self::STARTED_KEY );
-		delete_option( self::CONTACTPAGE_ID_KEY );
+		jpo_reset();
 
 		wp_send_json_success( 'deleted' );
 	}
@@ -406,21 +404,6 @@ class Jetpack_Onboarding_EndPoints {
 
 		// hide for all users
 		update_option( self::HIDE_FOR_ALL_USERS_OPTION, 1 );
-	}
-
-	static function show_dashboard_widget() {
-		delete_option( self::HIDE_FOR_ALL_USERS_OPTION );
-
-		$setting = get_user_option( get_current_user_id(), "metaboxhidden_dashboard" );
-
-		if ( ! $setting || ! is_array( $setting ) ) {
-			$setting = array();
-		}
-
-		if ( in_array( Jetpack_Onboarding_WelcomePanel::DASHBOARD_WIDGET_ID, $setting ) ) {
-			$setting = array_diff( $setting, array( Jetpack_Onboarding_WelcomePanel::DASHBOARD_WIDGET_ID ) );
-			update_user_option( get_current_user_id(), "metaboxhidden_dashboard", $setting, true );
-		}
 	}
 
 	static function step_view() {
@@ -791,7 +774,9 @@ Warwick, RI 02889
 
 			$connect_url = add_query_arg( 'host', JETPACK_ONBOARDING_VENDOR_CODE, $connect_url );
 			$connect_url = add_query_arg( 'product', JETPACK_ONBOARDING_PRODUCT_CODE, $connect_url );
-			$connect_url = add_query_arg( 'from', 'jpo-' . self::VERSION, $connect_url );
+
+			$from_arg = apply_filters( 'jpo_tracking_from_arg', sprintf( 'jpo-%s', self::VERSION ), self::VERSION );
+			$connect_url = add_query_arg( 'from', $from_arg, $connect_url );
 
 			wp_send_json_success( array('next' => $connect_url) );
 		} else {
