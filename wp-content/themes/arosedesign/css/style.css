@@ -793,6 +793,7 @@ div#content {
 .single #primary article .entry-content iframe {
     width: 100%;
     min-height: 300px;
+    max-height: 350px
 }
 
 div.twitter-video.twitter-video-rendered {
@@ -821,6 +822,7 @@ div.twitter-video.twitter-video-rendered {
     .single #primary article .entry-content iframe {
         width: 100%;
         min-height: 200px;
+        max-height: 200px
     }
 }
 

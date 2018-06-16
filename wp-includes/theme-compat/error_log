@@ -1,0 +1,4 @@
+[07-Jun-2018 01:24:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home2/basketk7/public_html/basketballnba/wp-includes/theme-compat/embed-content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/basketk7/public_html/basketballnba/wp-includes/theme-compat/embed-content.php on line 13
